@@ -1,0 +1,260 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family:'Inter', sans-serif;
+    font-size: 17px;
+
+}
+
+p {
+    line-height: 1.5;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+    color: #00D674;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #00D674;
+
+}
+
+h2 {
+    font-size: 40px ;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 25px;
+
+}
+
+
+
+/* Header Layout*/
+
+
+#primary-nav{
+    position: sticky;
+    padding: 25px 0;
+    box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
+    z-index: 1;
+}
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav .navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav .navbar.end {
+    margin-left: auto;
+}
+
+.nav .navbar .nav-item:hover {
+    color:#194e36;
+}
+
+.nav-item {
+    border: 1px solid transparent;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+.primary-nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0 15px;
+    align-items: center;
+}
+
+.btn{
+    padding: 10px 50px;
+}
+
+.btn-rounded{
+    border-radius: 50px;
+}
+
+.btn-primary{
+    background-color: #194e36;
+}
+
+
+
+
+
+/*sección Hola*/
+.container{
+    margin: auto;
+    width: 80%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-content {
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.hello {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.name {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.personal-description {
+    margin-top: 5px;
+    margin-bottom: 31px;
+}
+
+.imagen {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/*sección Mis conocimientos*/
+
+#conocimientos {
+    background-color: #e8f3ee;
+    width: 100%;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-description {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 60px;
+}
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card-size {
+    height: 230px;
+    width: 250px;
+
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   background-color: white;
+}
+
+.card:hover {
+    border: 1px solid #00D674;
+   color: #00D674;
+}
+
+.card-icon {
+    font-size: 4.71em;
+    margin: auto;
+
+}
+
+.card-name {
+    margin: auto;
+}
+
+
+
+/* sección cita*/
+
+#cita {
+    background-color: #00D674;
+    width: 100%;
+}
+
+.wrapper-quote {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.quote-icon {
+    font-size: 80px;
+    color: white;
+    padding-left: 45%;
+    padding-top: 90px;
+
+}
+
+.quote-content {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.author {
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+
+/*seccion proyectos*/
+
+
+.card-button-size {
+    height: 350px;
+    width: 350px;   
+
+}
+
+
+.card-button-image {
+    width:200px ;
+    height: 180px;
+    margin: auto;
+
+}
+
+.card-button-name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
